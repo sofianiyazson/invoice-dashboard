@@ -1,0 +1,170 @@
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    padding: 3% 0;
+    background-color: #ddd;
+}
+
+.form-control {
+    background-color: #ddd;
+    width: 80%;
+    margin: 1% 10%;
+}
+
+.task {
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    height: 88px;
+    width: 90%;
+    margin: 1% 5%;
+    padding: 0px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.task h2,
+.task h4,
+.task .invoice,
+.task p {
+    margin-left: 35px;
+}
+
+.task .b {
+    margin: 0 0 0 25px;
+}
+
+.bgColor {
+    width: 25px;
+    height: 88px;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px 0px 0px 5px;
+    float: left;
+}
+
+.dots {
+    cursor: pointer;
+    float: right;
+    font-size: 30px;
+}
+
+.threeDots {
+    cursor: pointer;
+    float: right;
+    font-size: 30px;
+}
+
+.fixed-bottom {
+    background-color: #ddd;
+    margin-top: 5%;
+}
+
+.fixed-bottom a i {
+    text-align: center;
+    font-size: 30px;
+    padding: 8px 12px;
+    color: black;
+}
+
+.fixed-bottom a i:hover,
+nav a i:active,
+.active {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.overviewNavbar {
+    background-color: #ddd;
+    padding: 0;
+}
+
+#projectLink,
+#taskLink {
+    padding: 1% 22%;
+}
+
+.activeA {
+    background-color: grey;
+}
+
+.overviewNavbar a h4 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.btn-block {
+    width: 80%;
+    margin: 2% 0% 6%;
+}
+
+.options {
+    cursor: pointer;
+    display: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: right;
+    margin: 0% 2% 0 0;
+    background-color: #eee;
+}
+
+.btn-light {
+    margin: 5px;
+    width: 100px;
+}
+
+.btn-light:hover {
+    background-color: #bbb;
+    color: white;
+}
+
+.del,
+.del:hover {
+    color: red
+}
+
+.header {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background: #ddd
+}
+
+.handleTimer {
+    font-size: 25px;
+    float: right;
+    cursor: pointer;
+}
+
+.invoice {
+    float: right;
+    margin: 5px;
+}
+
+.btn-info {
+    color: white;
+}
+
+.dashboardTable {
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+.card {
+    max-width: 18rem;
+    height: 11rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+        height: 14rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .card {
+        height: 16rem;
+    }
+}
